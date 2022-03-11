@@ -34,4 +34,11 @@ Today I Learned / 배운 것 기록하기
 
 
 - TypeReference
+- 제이쿼리 ajax 로딩바 
+> $.ajaxSetUp에서 한번에 할수 있다.
+> 
+> 
+>
+### 2022.03.11
+- mybatis SelectKey return값 1이 나오는 이유
 

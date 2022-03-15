@@ -41,4 +41,6 @@ Today I Learned / 배운 것 기록하기
 >
 ### 2022.03.11
 - mybatis SelectKey return값 1이 나오는 이유
+  [참고링크](https://velog.io/@ctp102/mybatis-selectKey-return%EA%B0%92%EC%9D%B4-1%EC%9D%B4-%EA%B3%84%EC%86%8D-%EB%82%98%EC%98%A4%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
+### 2022.03.15

@@ -49,4 +49,8 @@ Today I Learned / 배운 것 기록하기
 - postgresql 나누기 할때는 자료형 numeric 바보같이 소수점까지 필요한데 integer로 했음.
 - spring c: forEach spring form:select
 
+### 2022.03.16
+- JPA 정의 
+
+
 

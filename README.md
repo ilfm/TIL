@@ -52,5 +52,12 @@ Today I Learned / 배운 것 기록하기
 ### 2022.03.16
 - JPA 정의 
 
+### 2022.03.17
+- dbever primary key 추가 
+- insert 한번에 넣는게 빠르다. 결국 해결 못함. 
+- https://dev.dwer.kr/2020/04/mysql-bulk-inserting.html
+- https://d2.naver.com/helloworld/1155
+
+
 
 

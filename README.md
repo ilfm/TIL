@@ -58,6 +58,11 @@ Today I Learned / 배운 것 기록하기
 - https://dev.dwer.kr/2020/04/mysql-bulk-inserting.html
 - https://d2.naver.com/helloworld/1155
 
-
+### 2022.03.18
+- 오라클 level
+- [postgresql-document](https://www.postgresql.org/files/documentation/pdf/10/postgresql-10-A4.pdf)
+- 함수안에서 for문 돌리던거   
+  generate_series 함수 사용해서 계산하는 쿼리 만들어서   
+  insert 해줬더니 엄청 빨라졌다.
 
 

@@ -65,4 +65,5 @@ Today I Learned / 배운 것 기록하기
   generate_series 함수 사용해서 계산하는 쿼리 만들어서   
   insert 해줬더니 엄청 빨라졌다.
 
-### 2022.03.21
+### 2022.03.29
+- limit

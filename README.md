@@ -91,3 +91,28 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
 1. state
 2. getters
 3. mutations
+
+### 2022.05.17
+- axios (액시오스)
+- : 뷰에서 권고하는 Promise 기반의 HTTP 통신 라이브러리
+
+- 액시오스 응답제어
+- .then
+- : 비동기 통신이 성공했을 경우, .then()은 콜백을 인자로 받아 결과값을 처리할수 있다.
+- .catch
+- : .catch를 통해 오류를 처리한다.
+
+- 액시오스 http 요청 메서드 종류
+1. axios.get(url[,conpig)
+   : 서버에서 데이터를 가져올 때 사용하는 메서드
+     두 번째 파라미터 config 객체에는 헤더(header),응답초과시간(timeout),인자값등의
+     요청 값을 같이 넘길 수 있다.
+2. axios.post(url[,data[,config]])
+   : 서버에서 데이터를 새로 생설할떄 사용하는 메서드 
+3. axios.pust(url[,data[,config]])
+   : 특정 데이터를 수정할 때 요청하는 메서드 put은 새로운 리소스를 생성하거나
+     이미 존재하는 데이터를 대체할 때 사용됩니다. post와의 다른점은 post는 여러번
+     호출할 경우, 새로운 데이터가 지속적으로 추가됩니다. 반면 put은 한번 요청하거나 
+     여러 번 지속적으로 요청해도 결과값이 동일하다
+4. axios.delete(url[,data[,config]])
+   : 특정 데이터나 값을 삭제할때 요청하는 메서드

@@ -122,8 +122,8 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
 - : 비동기 함수를 동기 처리하기 위해 고안한 객체
 
 
-### 22.05.18
-#### webpack이란?
+## 22.05.18
+### webpack이란?
 > 웹팩의 4가지 주요속성
 : 웹팩의 빌드(파일변환)과정을 이해하기 위해서 4가지 주요속성을 알고 있어야한다.
 1. entry
@@ -136,4 +136,17 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
    - 로더(Loader)는 웹팩이 웹 애플리케이션을 해석할 때 자바스크립트 파일이 아닌 웹 자원(HTML, CSS, Images, 폰트 등)들을 변환할 수 있도록 도와주는 속성입니다.
 4. plugin
    - 플러그인(plugin)은 웹팩의 기본적인 동작에 추가적인 기능을 제공하는 속성입니다. 로더랑 비교하면 로더는 파일을 해석하고 변환하는 과정에 관여하는 반면, 플러그인은 해당 결과물의 형태를 바꾸는 역할을 한다고 보면 됩니다.
-     
+ 
+### enum?
+[enum][https://techblog.woowahan.com/2527/]
+
+---
+## 22.05.19
+### Assertions
+#### AssertJ란?
+- 테스트코드를 작성 할 때 풍부한 문법을 제공하여 테스트 코드를 쉽고 가독성 높게 작성할수 있도록 도와주는 자바라이브러리
+
+> https://assertj.github.io/doc/
+> https://pjh3749.tistory.com/241
+
+### @BeforeEach

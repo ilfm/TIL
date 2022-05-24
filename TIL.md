@@ -190,4 +190,7 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
         ※ 빌트인 오브젝트 좀더 공부하기 __proto__
 
 ```
+### Spring @DisplayName 
+#### context.getBean(beanName ,Type)
+#### .class의 의미
 

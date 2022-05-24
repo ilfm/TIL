@@ -1,4 +1,4 @@
-# TIL
+# 👨‍💻 Today I Learned
 Today I Learned / 배운 것 기록하기
 
 ## 2022.03.02

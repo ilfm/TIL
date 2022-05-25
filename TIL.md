@@ -194,3 +194,18 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
 #### context.getBean(beanName ,Type)
 #### .class의 의미
 
+
+## 22.05.25
+### function 
+####함수형태
+  - 함수 선언문
+  - 함수 표현식
+### Arguments Object
+  - 함수 호출 시 , 전달인자들이 배열 형태로 저장된 객체로
+    함수 호출시 전달인자와 함께 arguments 객체가 함수 내부로 전달된다.
+  - 주로 파라미터가 유동적인 함수 구현 시 사용된다.
+  - 유사배열객체로 배열로 변화하려면 Array.prototype.slice.call(arguments);
+  - 자바스크립트는 유연한 언어로 함수를 호출할 때 파라미터 형식을 맞추지 않아도 에러가 나지 않는다.
+
+###Spring
+

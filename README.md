@@ -1,7 +1,7 @@
 ### 📘 INDEX
 
 ### java
-- enum
+- [enum](https://github.com/ilfm/TIL/blob/master/java/enum.md)
 ### Spring
  - [spring container](https://github.com/ilfm/TIL/blob/master/spring/spring-container.md)
 ### Javascript

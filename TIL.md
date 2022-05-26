@@ -209,3 +209,9 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
 
 ###Spring
 
+
+### 22.05.26
+#### Global , window
+
+
+#### 싱글톤 패턴, 싱글톤 컨테이너

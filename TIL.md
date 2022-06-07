@@ -215,3 +215,69 @@ Elements in iteration expect to have 'v-bind:key' directives  vue/require-v-for-
 
 
 #### 싱글톤 패턴, 싱글톤 컨테이너
+
+### 22.05.31
+#### 네비게이션 가드 (navigation guard)
+- 네비게이션 가드랑 뷰 라우터로 특정 url에 접근할 때 해당 url의 접근을 막는 방법을 말한다.
+- 예를들어, 사용자의 인증정보가 없으면 특정 페이지에 접근 하지 못하게 할때 사용하는 기술
+
+#### 네비게이션 가드의 종류
+- 애플리케이션 전역에서 동작하는 전역가드
+- 특정 url에서만 동작하는 라우터가드
+- 라우터 컴포넌트 안에 정의하는 컴포넌트 가드
+
+#### 전역가드
+- 전역 가드는 라우터 인스턴스를 참조하는 객체로 설정 할 수 있습니다.
+```javascript 
+
+router.beforeEach(function (to,from,next){
+    // to : 이동할 url
+    // from : 현재 url
+    // next : to에서 지정한 url로 이동하기 위해 꼭 호출해야하는 함수
+});
+```
+- router.beforeEach()를 호출하면 모든 라우팅이 대기 상태가 됩니다.
+- 원래 url 변경되고 나면 해당 url 따라 화면이 자연스럽게 전환되어야하는데 전역 가드이기 떄문에 화면이 전화되지않음
+- 해당 url로 라우팅 하기 위해서 next()를 호출해야한다.
+
+#### 라우터 가드
+- 전체 라우팅이 아니라 특정 라우팅에 대해서 가드를 설정하는 방법 
+```javascript
+var router = new VueRouter({
+    routes:[{
+        path: '/login',
+        component : Login,
+        beforeEnter : function (to, from, next){        
+            // 로직 추가
+        }
+    }]
+});
+```
+
+#### 컴포넌트 가드
+- 라우터로 지정된 특정 컴포넌트에 가드를 설정하는 방법은 다음과 같다.
+```javascript
+const Login ={
+    template: '<p>Login Component</p>',
+  beforeRouteEnter (to, from, next) {
+    // Login 컴포넌트가 화면에 표시되기 전에 수행될 로직
+    // Login 컴포넌트는 아직 생성되지 않은 시점
+  },
+  beforeRouteUpdate (to, from, next) {
+    // 화면에 표시된 컴포넌트가 변경될 때 수행될 로직
+    // `this`로 Login 컴포넌트를 접근할 수 있음
+  },
+  beforeRouteLeave (to, from, next) {
+    // Login 컴포넌트를 화면에 표시한 url 값이 변경되기 직전의 로직
+    // `this`로 Login 컴포넌트를 접근할 수 있음
+  }
+}
+
+
+}
+
+```
+
+###22.06.07
+#### @EnableWebSecurity
+#### @EnableGlobalMethodSecurity

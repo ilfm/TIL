@@ -281,3 +281,23 @@ const Login ={
 ###22.06.07
 #### @EnableWebSecurity
 #### @EnableGlobalMethodSecurity
+
+### 22.06.14
+#### vue created mounted 차이
+
+### 22.06.24
+- 로그인 폼은 사용자가 아이디 패스워드를
+  넣고 전송을 하면 전송하기 전에 중간에 
+  자바스크립트가 가로챈다.
+  
+
+### 22.07.11
+- export , export default 차이
+  https://shinejaram.tistory.com/41
+  https://m.blog.naver.com/gi_balja/221227430979
+  
+
+- vue3 setup()
+### 22.07.19
+- vue watch 객체안에 있는 데이터 감지
+  https://codingcoding.tistory.com/337

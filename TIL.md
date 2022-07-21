@@ -301,3 +301,12 @@ const Login ={
 ### 22.07.19
 - vue watch 객체안에 있는 데이터 감지
   https://codingcoding.tistory.com/337
+  
+- 자바스크립트 템플릿 리터럴 (template Literal)
+```
+    백틱(`) 사용  
+```
+
+### 22.0721
+- vue ref는 언제 사용할까?
+  https://riviere.tistory.com/92

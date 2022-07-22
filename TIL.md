@@ -307,6 +307,12 @@ const Login ={
     백틱(`) 사용  
 ```
 
-### 22.0721
+### 22.07.21
 - vue ref는 언제 사용할까?
   https://riviere.tistory.com/92
+  
+  
+
+## 22.07.22
+- vue filters
+  https://sunny921.github.io/posts/vuejs-filter/

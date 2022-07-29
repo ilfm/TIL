@@ -313,6 +313,23 @@ const Login ={
   
   
 
-## 22.07.22
+### 22.07.22
 - vue filters
   https://sunny921.github.io/posts/vuejs-filter/
+
+### 22.07.27
+ vue project 생성
+ https://blog.naver.com/PostView.naver?blogId=hj_kim97&logNo=222458611638
+- element-ui 설치
+ https://velog.io/@kimy/vuejs-elementUI-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
+ 
+
+### 22.07.28
+- 전역 properties
+https://kr.vuejs.org/v2/cookbook/adding-instance-properties.html
+  
+
+### 22.07.29
+- vue 뒤로가기
+  https://velog.io/@keywookim/B.TIL-05-history%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%9D%B4%EB%8F%99%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0-%EB%93%B1
+  지금 프로젝트에서 라우터로 이동하는게 아니라 v-if show 형식이어서  

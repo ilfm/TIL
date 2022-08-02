@@ -333,3 +333,17 @@ https://kr.vuejs.org/v2/cookbook/adding-instance-properties.html
 - vue 뒤로가기
   https://velog.io/@keywookim/B.TIL-05-history%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%9D%B4%EB%8F%99%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0-%EB%93%B1
   지금 프로젝트에서 라우터로 이동하는게 아니라 v-if show 형식이어서  
+
+### 22.08.01
+- 값을 서버로 보낼때 숫자인지 체크 하고 보내야해서 
+- isNaN()
+- https://hianna.tistory.com/385
+- for in Object.values()
+- https://velog.io/@sunhwa508/object-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0-for-in-for-of-object.key-object.values
+- vue element-ui select option value 로 쓰는법
+- https://stackoverflow.com/questions/64976435/element-ui-select-doesnt-work-with-object-as-value
+
+### 22.08.02
+- Junit 이클립스 설정
+  https://junghn.tistory.com/entry/Eclipse-%EC%9E%90%EB%B0%94-JUnit-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B0%A9%EB%B2%95
+  

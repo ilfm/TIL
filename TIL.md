@@ -353,4 +353,4 @@ https://wacav.github.io/dev/2016/08/17/java-regex.html
     -https://hianna.tistory.com/617 split 여러개
   
 - juit4 Exception
-  https://blog.outsider.ne.kr/659
+  https://recordsoflife.tistory.com/338

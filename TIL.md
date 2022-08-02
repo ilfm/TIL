@@ -346,4 +346,11 @@ https://kr.vuejs.org/v2/cookbook/adding-instance-properties.html
 ### 22.08.02
 - Junit 이클립스 설정
   https://junghn.tistory.com/entry/Eclipse-%EC%9E%90%EB%B0%94-JUnit-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B0%A9%EB%B2%95
+- 자바 정규표현식
+https://wacav.github.io/dev/2016/08/17/java-regex.html
+- https://blog.naver.com/rorean/221582429295
+  https://girawhale.tistory.com/77
+    -https://hianna.tistory.com/617 split 여러개
   
+- juit4 Exception
+  https://blog.outsider.ne.kr/659

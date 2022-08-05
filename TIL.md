@@ -354,3 +354,23 @@ https://wacav.github.io/dev/2016/08/17/java-regex.html
   
 - juit4 Exception
   https://recordsoflife.tistory.com/338
+  
+### 22.08.03
+- vue 라이프 사이클 훅
+```
+beforeCreate : vue 인스턴스 초기화된 직후 
+DOM 추가되기도 전 this.$el, data, event,watcher 
+접근 전이라 data, method에도 전급 할수 없다.
+
+created: data 반응형으로 추적할수 있게되며 computed, method,watch
+등 활성화되어 접근 가능 아직 DOM에 추가되지않은 상태 
+DATA에 직접 접근이 가능하기 떄문에 컴포넌트 초기에 외부에서 받아온 값들로
+data를 세팅하거나 이벤트 리스너를 선언해야한다면 여기에다 하는것이 적절하다
+```
+- 비동기 상황에서 prop 사용하기 -(소름.. selectbox 사용 비동기적으로 option 값 가져 와야하는데 처음에는 라이프사이클을 잘못 알았나.
+  채)
+  https://juntcom.tistory.com/103
+  - https://inma.tistory.com/106
+    props 는 변경해서는 안된다.
+
+
